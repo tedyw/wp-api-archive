@@ -57,7 +57,7 @@ class WP_API_Archive {
 				'type'      => 'monthly',
 				'post_type' => $post_type,
 				'echo'      => false,
-				'limit'     => 12,
+				'limit'     => '',
 				'format'    => 'option'
 			) );
 
